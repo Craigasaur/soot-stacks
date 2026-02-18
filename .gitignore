@@ -1,0 +1,6 @@
+**/data/
+**/work/
+**/logs/
+**/config/
+
+!**/homepage/config/*.yaml
