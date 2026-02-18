@@ -9,7 +9,7 @@ services:
       - ./config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
-      - HOMEPAGE_ALLOWED_HOSTS=100.82.226.103,100.82.226.103:7575,all
+      - HOMEPAGE_ALLOWED_HOSTS=100.82.226.103,100.82.226.103:7575,home.soot,all  
     networks:
       - lab-net
 
